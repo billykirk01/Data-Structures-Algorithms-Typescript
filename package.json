@@ -1,0 +1,17 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "ts-node src/main.ts",
+    "install-dependencies": "npm i",
+    "update": "ncu -u && npm"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.26"
+  }
+}
