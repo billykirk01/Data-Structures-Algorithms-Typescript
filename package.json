@@ -6,7 +6,7 @@
   "scripts": {
     "run": "ts-node src/main.ts",
     "install-dependencies": "npm i",
-    "update": "ncu -u && npm"
+    "update": "npm upgrade && npm i"
   },
   "dependencies": {
     "axios": "^0.19.2"
